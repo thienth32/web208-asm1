@@ -1,0 +1,5 @@
+
+<fieldset *ngFor="let item of monhoc">
+    <legend>{{item.Name}}</legend>
+    <a [routerLink]="'quiz/' + item.Code">Làm quiz</a>
+</fieldset>
